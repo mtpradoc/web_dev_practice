@@ -1,1 +1,21 @@
 
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column-start: 3; /* 3rd vertical grid line*/
+  grid-column-end: 4; /* end at the 4th not included */
+  grid-column: 2/4; /* start at 2nd column and ends at 3 column */
+  grid-row-start: 3; /* start at row 3rd */
+  grid-row: 3/6;
+  grid-area: 1/2/4/6; /*row start, column start, row end, column end */
+}
+
+#poison {
+  grid-column-start: 5;
+  grid-column-end: span 2; /* span keyword to define the amount of columns to span */
+  order: 5; /* by default items have order 0 */
+}
