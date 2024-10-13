@@ -35,4 +35,36 @@
   order: 1; /* order property to individual items. items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2,-1,0,1,2) */
 }
 
---
+#pond {
+  display: flex;
+}
+.yellow {
+  align-self: flex-end; /* align-self is a property you can apply to individual items. It does accepts the same values as align-items */
+}
+
+#pond {
+  display: flex;
+  /* flex-wrap property spread items out */
+  flew-wrap: nowrap; /* every item is fit to a single line */
+  flex-wrap: wrap; /*  items wrap around to additional lines */
+  flex-wrap: wrap-reverse; /* items wrap around to additional lines in reverse */
+}
+
+#pond {
+  display: flex;
+  /* The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space
+  For example, you can use flex-flow: row wrap to set rows and wrap them */
+  flex-flow: row wrap;
+  flex-flow: column wrap;
+}
+
+#pond {
+  display: flex;
+  /*Property align-content to set how multiple lines are spaced apart from each other */
+  align-content: flex-start; /* lines are packed at the top of the container */
+  align-content: flex-end; /* lines are packed at the bottom of the container */
+  align-content: center; /* lines are packed at the vertical center of the container */
+  align-content: space-between; /* lines display with equal spacing between them */
+  align-content: space-around; /* lines display with equal spacing around them */
+  align-content: stretch; /* lines are stretched to fit the container */
+}
