@@ -1,0 +1,38 @@
+#pond {
+  display: flex;
+  /*   justify-content property aligns items horizontally and accepts the following values */
+  justify-content: flex-start;  /* items align to the left side of the container */
+  justify-content: flex-end; /* items align to the right side of the container */
+  justify-content: center; /* items align at the center of the container */
+  justify-content: space-between; /* items display with equal spacing between them */
+  justify-conten: space-around; /* items display with equal spacing around them */
+}
+
+#pond {
+  display: flex;
+  /* align-items aligns items veritcally and accepts the following values */
+  align-items: flex-start; /* items align to the top of the container */
+  align-items: flex-end; /* items align to the bottom of the container */
+  align-items: center; /* items align at the vertical center of the container */
+  align-center: baseline; /* items display at the baseline of the container */
+  align-center: stretch; /* items are stretched to fit the container */
+}
+
+#pond {
+  display: flex;
+  /* flex-direction property defines the direction items are placed in the container */
+  flex-direction: row; /* items are placed the same as the text direction */
+  flex-direction: row-reverse; /* items are placed opposite to the text direction */
+  flex-direction: column; /* items are placed top to bottom */
+  flex-direction: column-reverse; /* items are placed bottom to top */
+}
+
+/* order */
+#pond {
+  display: flex;
+}
+.yellow {
+  order: 1; /* order property to individual items. items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2,-1,0,1,2) */
+}
+
+--
