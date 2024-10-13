@@ -1,3 +1,5 @@
+/* FLEXBOX ::::: This is essential for creating flexible and responsive layouts */
+
 #pond {
   display: flex;
   /*   justify-content property aligns items horizontally and accepts the following values */
